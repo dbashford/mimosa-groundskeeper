@@ -1,0 +1,37 @@
+{
+  "name": "mimosa-groundskeeper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbashford/mimosa-groundskeeper",
+  "author": "David Bashford",
+  "description": "A Mimosa module to remove specific code, like console statements, from JavaScript",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-groundskeeper"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "esprima",
+    "console",
+    "log",
+    "clean",
+    "sanitize"
+  ],
+  "dependencies": {
+    "groundskeeper" :"0.1.6"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
