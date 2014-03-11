@@ -19,7 +19,7 @@ var _cleanse = function ( mimosaConfig, options, next ) {
       cleaner.write( file.outputFileText );
       var newOutputText = cleaner.toString();
       if ( mimosaConfig.groundskeeper.log && file.outputFileText !== newOutputText ) {
-        logger.info( "mimosa-groundskeeper has cleased [[ " + file.outputFileName + " ]]");
+        logger.info( "mimosa-groundskeeper has cleansed [[ " + file.outputFileName + " ]]");
       }
       file.outputFileText = newOutputText;
     });
